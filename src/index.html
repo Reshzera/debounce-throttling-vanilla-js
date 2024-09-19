@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Home</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="scripts/debounce.js" defer></script>
+    <script src="scripts/throttle.js" defer></script>
+  </head>
+
+  <main>
+    <h1 class="title">Debounce and Throttle</h1>
+    <div class="inputs-section">
+      <div class="custom-input">
+        <label for="search">Search</label>
+        <input type="text" id="search" placeholder="Search..." />
+      </div>
+      <div class="custom-input">
+        <label for="search">Debounce time in ms</label>
+        <input type="text" id="debounce" placeholder="1000" />
+      </div>
+
+      <div class="custom-input">
+        <label for="search">Throttle time in ms</label>
+        <input type="text" id="throttle" placeholder="500" />
+      </div>
+    </div>
+    <ul id="results"></ul>
+  </main>
+</html>
